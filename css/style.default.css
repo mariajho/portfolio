@@ -157,7 +157,7 @@ p.social {
 }
 p.social a {
   margin: 0 10px 0 0;
-  color: #fff;
+  color:#198771;
   display: inline-block;
   width: 26px;
   height: 26px;
@@ -871,6 +871,7 @@ h1,
 h2,
 .h2 {
   font-size: 36px;
+  padding-top:-10%;
 }
 h3,
 .h3 {
@@ -1042,4 +1043,18 @@ h4.heading:after {
     margin: 10px auto 20px;
     background:#a3320d;
     border:1px solid#bf9d07;
+}
+
+.img-responsive {
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.datos:hover{
+  background-color: rgba(2, 237, 190, 0.2);
+  cursor:pointer;
+  font-weight: bold;
+  color:#198771;
+  
 }
