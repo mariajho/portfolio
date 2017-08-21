@@ -14,7 +14,9 @@ body {
   overflow: hidden;
 }
 .italic {
-  font-style: italic;
+  margin-top: 2%;
+  font-size: 20px;
+
 }
 .main {
   float: left;
@@ -73,6 +75,7 @@ h4.heading:after {
 }
 .img-responsive {
   margin: 0 auto;
+
   }
 
   .img-circle {
@@ -145,7 +148,8 @@ h4.heading:after {
   margin: 0 auto;
   text-align: center;
   line-height: 40px;
-  padding-bottom: 10%;
+  padding-bottom: 20%;
+  padding-right: 24%;
 }
 
 .contact-form {
@@ -154,6 +158,7 @@ h4.heading:after {
 p.social {
   text-align: center;
   margin-top: 20px;
+  font-family: 'Nova Flat', cursive;
 }
 p.social a {
   margin: 0 10px 0 0;
@@ -215,7 +220,15 @@ p.social a.email {
     text-align: center !important;
   }
 }
+
+#page1 p {
+    font-size: 30px;
+    padding-top: 15%;
+    font-family: 'Nova Flat', cursive;
+}
+
 #page1 {
+   font-size: 30px;
   text-align: center;
   background: url('../img/office-581131_1920.jpg') center center no-repeat;
   background-size: cover;
@@ -227,7 +240,7 @@ p.social a.email {
   color: #fff;
 }
 #page1 p {
-  font-size: 20px;
+  font-size: 40px;
   padding-top: 10%;
 }
 #page1 .icon {
@@ -856,7 +869,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Russo One', sans-serif;
   font-weight: 700;
   line-height: 1.3;
   color: #122151;
@@ -866,12 +878,14 @@ h6,
 h1,
 .h1 {
   font-size: 48px;
-  padding-top: 1%;
+  padding-top: 10%;
+  font-family: 'Bowlby One SC', cursive;
 }
 h2,
 .h2 {
-  font-size: 36px;
+  font-size: 40px;
   padding-top:-10%;
+  font-family: 'Bowlby One SC', cursive;
 }
 h3,
 .h3 {
@@ -880,13 +894,11 @@ h3,
 h4,
 .h4 {
   font-size: 24px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   color:#51c1b6;
+  font-family: 'Nova Flat', cursive;
 }
 h5,
-.h5 {
-  font-size: 16px;
-}
 h6,
 .h6 {
   font-size: 16px;
@@ -902,6 +914,8 @@ h3,
 }
 p {
   margin: 0 0 22px;
+  font-family: 'Nova Flat', cursive;
+  font-size: 25px;
 }
 .lead {
   margin-bottom: 22px;
@@ -1021,12 +1035,21 @@ a.list-group-item.active > .badge,
     overflow: hidden;
 }
 
+img {
+    vertical-align: middle;
+    margin-left: 8%;
+}
+
 .icon-contacto{
   cursor:pointer;
+  text-align: center;
+  padding-right: 10%;
 }
 
 .icon{
   cursor: pointer;
+  text-align: center;
+
 }
 
 .heading:after {
@@ -1051,10 +1074,37 @@ h4.heading:after {
     padding-bottom: 10%;
 }
 
+.img-responsive:hover{
+  background: rgba(178, 42, 16, 0.5);
+  z-index: 100;
+}
+
 .datos:hover{
-  background-color: rgba(2, 237, 190, 0.2);
+  background-color: rgba(2, 237, 190, 0.9);
   cursor:pointer;
   font-weight: bold;
   color:#198771;
   
+}
+
+#page1 p {
+    font-size: 30px;
+    padding-top: 15%;
+    font-family: 'Nova Flat', cursive;
+}
+
+#ultimo{
+  background-color: #963427; 
+  font-size: 16px;
+  font-family: 'Nova Flat', cursive;.img-circle{
+  color:white;
+  }
+}
+
+.img-circle{
+  margin-top:30%;
+}
+
+#final{
+  color: white;
 }
