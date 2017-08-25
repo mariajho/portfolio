@@ -239,10 +239,12 @@ p.social a.email {
 #page1 h3 {
   color: #fff;
 }
+
 #page1 p {
-  font-size: 40px;
-  padding-top: 10%;
+    font-size: 24px;
+    padding-top: 10%;
 }
+
 #page1 .icon {
   position: absolute;
   bottom: 40px;
@@ -877,13 +879,13 @@ h6,
 }
 h1,
 .h1 {
-  font-size: 44px;
+  font-size: 42px;
   padding-top: 10%;
   font-family: 'Bowlby One SC', cursive;
 }
 h2,
 .h2 {
-  font-size: 38px;
+  font-size: 36px;
   padding-top:-10%;
   font-family: 'Bowlby One SC', cursive;
 }
@@ -919,7 +921,7 @@ p {
 }
 .lead {
   margin-bottom: 22px;
-  font-size: 14px;
+  font-size: 12px;
 }
 @media (min-width: 768px) {
   .lead {
@@ -1100,6 +1102,7 @@ h4.heading:after {
   font-size: 16px;
   font-family: 'Nova Flat', cursive;.img-circle{
   color:white;
+  margin-top: 10%;
   }
 }
 
