@@ -67,7 +67,7 @@ section {
   background: #4fbfa8;
 }
 h4.heading {
-  margin-bottom: 20px;
+  margin-bottom: -11px;
 }
 h4.heading:after {
   margin: 10px auto 20px;
@@ -886,7 +886,7 @@ h1,
 h2,
 .h2 {
   font-size: 36px;
-  padding-top:-10%;
+  padding-top:-5%;
   font-family: 'Bowlby One SC', cursive;
 }
 h3,
@@ -920,7 +920,7 @@ p {
   font-size: 25px;
 }
 .lead {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   font-size: 12px;
 }
 @media (min-width: 768px) {
@@ -1039,7 +1039,12 @@ a.list-group-item.active > .badge,
 
 img {
     vertical-align: middle;
-    margin-left: 8%;
+    margin-left: 9%;
+    margin-top: -2%;
+}
+
+.git{
+  margin-left: 5%;
 }
 
 .icon-contacto{
@@ -1108,6 +1113,7 @@ h4.heading:after {
 
 .img-circle{
   margin-top:30%;
+  height: 450px;
 }
 
 #final{
