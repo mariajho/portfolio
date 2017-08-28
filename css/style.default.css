@@ -1043,7 +1043,7 @@ img {
     margin-top: -2%;
 }
 
-.git{
+.icon{
   margin-left: 5%;
 }
 
@@ -1089,10 +1089,9 @@ h4.heading:after {
 }
 
 .datos:hover{
-  background-color: rgba(2, 237, 190, 0.9);
   cursor:pointer;
   font-weight: bold;
-  color:#198771;
+ 
   
 }
 
@@ -1118,4 +1117,9 @@ h4.heading:after {
 
 #final{
   color: white;
+}
+
+#link{
+  height: 50px;
+  width: 50px;
 }
