@@ -1073,6 +1073,12 @@ h4.heading:after {
     margin: 10px auto 20px;
     background:#a3320d;
     border:1px solid#bf9d07;
+
+}
+
+#sobre{
+  margin-right: -120%;
+
 }
 
 .img-responsive {
@@ -1120,6 +1126,7 @@ h4.heading:after {
 }
 
 #link{
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
+
